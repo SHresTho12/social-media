@@ -1,0 +1,11 @@
+.commentsection{
+display: flex;
+border: 2px dotted greenyellow;
+background-color: rgb(243, 238, 191);
+}
+.commenterImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid black;
+}

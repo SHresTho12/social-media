@@ -1,0 +1,23 @@
+.imageUser{
+    
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid gray;
+    height: 150px;
+}
+.image{
+    align-items: center;
+}
+.post:hover{
+    background-color: rgb(42, 185, 241);
+}
+/* .postbg:hover{
+    background-color: rgb(208, 155, 243); */
+/* } */
+.post{
+    box-shadow: 10px 10px 10px rgb(177, 163, 163);
+    padding:5px;
+}
+.title{
+color: rgb(131, 0, 22);
+}
