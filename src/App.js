@@ -16,16 +16,16 @@ import PostDetail from './Components /PostDetail/PostDetail';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      
      
     <Router>
       <Switch>
-        <Route path="/home"> <PostHolder></PostHolder></Route>
+        <Route path="/home"><Header></Header> <PostHolder></PostHolder></Route>
           
         <Route path="/post/:id">
           <PostDetail></PostDetail>
         </Route>
-        <Route path="/"><PostHolder></PostHolder></Route>
+        <Route path="/"><Header></Header><PostHolder></PostHolder></Route>
         <Route path="*">
             <Notfound></Notfound>
           </Route>
